@@ -44,8 +44,8 @@ body {
   }
   
   .gif_container img {
+    width: 250px;      /* ← zmniejsza zdjęcie */
     max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+    height: auto;      /* zachowuje proporcje */
     margin-top: 20px;
   }
