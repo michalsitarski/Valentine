@@ -43,7 +43,7 @@ body {
     cursor: pointer;
   }
   
-  .gif_container img {
+  .gif_container video {
     width: 250px;      /* ← zmniejsza zdjęcie */
     max-width: 100%;
     height: auto;      /* zachowuje proporcje */
