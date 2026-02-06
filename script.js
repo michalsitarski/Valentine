@@ -59,7 +59,7 @@ const messages = [
     "nie bądź taka",
     "Może jednak zmienisz zdanie?",
     "Spójrz jeszcze raz na Pumcie",
-    "Ona by ci pwoieidziała żebyś się zgodziła",
+    "Ona by ci powiedziała żebyś się zgodziła",
     "Proszę Kochanie",
     "Zostań moją Walentynką!",
     "Bedzie fajnie",
