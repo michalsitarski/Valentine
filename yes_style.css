@@ -1,14 +1,19 @@
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    justify-content: flex-start; /* elementy zaczynają się od góry */
+    align-items: center;         /* wyśrodkowanie poziome */
+    padding-top: 50px;           /* odstęp od góry */
     margin: 0;
     background-color: #f9e3e3;
     font-family: 'Arial', sans-serif;
+    flex-direction: column;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;        /* odstęp między nagłówkiem a wideo */
     text-align: center;
 }
 
@@ -17,8 +22,11 @@ body {
     color: #d32f2f;
 }
 
-.gif_container img {
-    width: 100%; 
-    max-width: 500px; 
-    height: auto; 
+.gif_container video {
+    width: 200px;      /* mniejsze wideo */
+    max-width: 90%;    /* dopasowanie do mniejszych ekranów */
+    height: auto;      /* zachowuje proporcje */
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
+
